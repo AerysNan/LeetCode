@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+import java.util.HashMap;
+
 class Solution {
   public int findLucky(int[] arr) {
     HashMap<Integer, Integer> map = new HashMap<>();
